@@ -1,0 +1,95 @@
+body * {
+  margin: 10px;
+}
+.gradient-button-1 {
+  display: block;
+  color: white;
+  border-radius: 12px;
+  border-style: none;
+  /* background-color: #218c74; */
+  background: linear-gradient(to right, #130f40 , #30336b);
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .2px;
+  font-family: 'Lato', sans-serif;
+  /* text-transform: uppercase; */
+}
+
+.gradient-button-2 {
+  display: block;
+  color: white;
+  border-radius: 12px;
+  border-style: none;
+  background: linear-gradient(to right, #348AC7 21%, #7474BF 100%);
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .2px;
+  font-family: 'Lato', sans-serif;
+}
+
+.light-pink-button {
+  display: block;
+  color: #1e272e;
+  border-radius: 12px;
+  border-style: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-family: 'Francois One', sans-serif;
+  background-color: #ffcccc;
+}
+
+
+
+.light-blue-button {
+  color: #1e272e;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #218c74;
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-family: 'Francois One', sans-serif;
+  background-color: #dff9fb;
+}
+
+
+.gradient-frame-button {
+  display: block;
+  background: none;
+  color: #1e272e;
+  border-image: linear-gradient(to left, #743ad5, #d53a9d);
+  border-image-slice: 1;
+  border-radius: 17px;
+  border-width: 3px;
+  /* background-image: linear-gradient(to right, #006175 0%, #00a950 100%); */
+
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.light-pink-button:hover, .light-blue-button:hover, .blue-gradient-button:hover             {
+  opacity: 0.8;
+}
+
+
+.light-gradient {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  height: 100px;
+  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+}
+
+.gradient-frame {
+  background: none;
+  text-decoration: inherit;
+  font-family: system-ui;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-image: linear-gradient(to right, #b861c6 0%,#ffc7c7 100%);
+  border-image-slice: 1;
+  border-width: 2px;
+  /* border-image: linear-gradient(to left, #743ad5, #d53a9d); */
+}
