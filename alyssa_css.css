@@ -54,7 +54,7 @@ body * {
 }
 
 
-.gradient-frame-button {
+.gradient-button-3 {
   display: block;
   background: none;
   color: #1e272e;
@@ -82,7 +82,7 @@ body * {
   background: linear-gradient(to right, #fab1a0 , #ff9ff3);
 }
 
-.gradient-frame {
+.gradient-button-4 {
   background: none;
   text-decoration: inherit;
   font-family: system-ui;
@@ -94,7 +94,25 @@ body * {
   /* border-image: linear-gradient(to left, #743ad5, #d53a9d); */
 }
 
-.gradient-radio-1 {
+
+.radio-buttons-label {
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+  color: linear-gradient(to right, #fab1a0 , #ff9ff3);
+}
+
+.card-1 {
+  background-color: #222f3e;
+  width: 400px;
+  height: 400px;
+  display: block;
+  border-radius: 20px;
+}
+
+.card-top {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-top img {
+  width: 80%;
 }
