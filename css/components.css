@@ -1,1 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
 
+body{
+  margin:auto;
+}
+
+.fun-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(187, 64, 183) 40%,rgb(132, 99, 232) );
+}
+
+.fun-li {
+  float: left;
+  font-size: 22px;
+  font-family:'Sawarabi Gothic', sans-serif;
+}
+
+  li a[class="fun-li"]{
+  display: block;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a[class="fun-li"]:hover {
+  background-color:rgb(103, 18, 101) ;
+}
+
+
+/* Copy and paste this for dark nav bar */
+
+.dark-nav{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(152, 149, 156) 50%,rgb(12, 23, 9) );
+}
+
+.dark-li{
+  float: left;
+  font-size: 22px;
+  font-family: "Sawarabi Gothic", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
+li a[class="dark-li"]{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a[class="dark-li"]:hover{
+  background-color: black;
+}
+
+
+/* Copy and paste this for news nav background */
+
+.news-nav{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background: linear-gradient(to right,rgb(30, 5, 128) 50%, rgb(75, 110, 203));
+}
+
+.news-li{
+  float:left;
+  font-size: 22px;
+  font-family:'Sawarabi Gothic', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+li a[class="news-li"]{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a[class="news-li"]:hover{
+  background-color: rgb(22, 105, 170);
+}
