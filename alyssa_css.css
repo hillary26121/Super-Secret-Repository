@@ -93,3 +93,8 @@ body * {
   border-width: 2px;
   /* border-image: linear-gradient(to left, #743ad5, #d53a9d); */
 }
+
+.gradient-radio-1 {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+}
