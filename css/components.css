@@ -38,14 +38,14 @@ li a[class="fun-li"]:hover {
   margin:0;
   padding:0;
   overflow: hidden;
-  background: linear-gradient(to right, rgb(152, 149, 156) 50%,rgb(12, 23, 9) )
+  background: linear-gradient(to right, rgb(152, 149, 156) 50%,rgb(12, 23, 9) );
 }
 
 .dark-li{
   float: left;
   font-size: 22px;
   font-family: "Sawarabi Gothic", sans-serif;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 
@@ -57,5 +57,22 @@ li a[class="dark-li"]{
 }
 
 li a[class="dark-li"]:hover{
-  background-color:
+  background-color: black;
+}
+
+
+/* Copy and paste this for news nav background */
+
+.news-nav{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background: linear-gradient(to right, ,);
+}
+
+.news-li{
+  float:left;
+  font-size: 22px;
+  
 }
