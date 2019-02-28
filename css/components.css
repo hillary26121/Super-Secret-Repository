@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
   margin:auto;
@@ -15,7 +15,7 @@ body{
 .fun-li {
   float: left;
   font-size: 22px;
-  font-family:'Sawarabi Gothic', sans-serif;
+  font-family:'Open Sans', sans-serif;
 }
 
   li a[class="fun-li"]{
@@ -44,7 +44,7 @@ li a[class="fun-li"]:hover {
 .dark-li{
   float: left;
   font-size: 22px;
-  font-family: "Sawarabi Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
 }
 
@@ -74,7 +74,7 @@ li a[class="dark-li"]:hover{
 .news-li{
   float:left;
   font-size: 22px;
-  font-family:'Sawarabi Gothic', sans-serif;
+  font-family:'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
 }
 
