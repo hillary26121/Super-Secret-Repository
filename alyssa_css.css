@@ -1,6 +1,8 @@
 body * {
   margin: 10px;
 }
+
+/* Rounded Gradient Buttons */
 .gradient-button-1 {
   display: block;
   color: white;
@@ -12,7 +14,6 @@ body * {
   font-size: 16px;
   letter-spacing: .2px;
   font-family: 'Lato', sans-serif;
-  /* text-transform: uppercase; */
 }
 
 .gradient-button-2 {
@@ -26,7 +27,11 @@ body * {
   letter-spacing: .2px;
   font-family: 'Lato', sans-serif;
 }
+/* ************************* */
 
+
+
+/* Rounded Solid Buttons */
 .light-pink-button {
   display: block;
   color: #1e272e;
@@ -38,8 +43,6 @@ body * {
   font-family: 'Francois One', sans-serif;
   background-color: #ffcccc;
 }
-
-
 
 .light-blue-button {
   color: #1e272e;
@@ -53,35 +56,15 @@ body * {
   background-color: #dff9fb;
 }
 
-
-.gradient-button-3 {
-  display: block;
-  background: none;
-  color: #1e272e;
-  border-image: linear-gradient(to left, #743ad5, #d53a9d);
-  border-image-slice: 1;
-  border-radius: 17px;
-  border-width: 3px;
-  /* background-image: linear-gradient(to right, #006175 0%, #00a950 100%); */
-
-  padding: 10px 20px;
-  font-size: 16px;
-  letter-spacing: .1px;
-  font-family: 'Francois One', sans-serif;
-}
-
+/* Hover for Rounded Solid Color Buttons */
 .light-pink-button:hover, .light-blue-button:hover, .blue-gradient-button:hover             {
   opacity: 0.8;
 }
+/* ************************* */
 
 
-.light-gradient {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  height: 100px;
-  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
-}
 
+/* Rectangular Gradient Buttons */
 .gradient-button-4 {
   background: none;
   text-decoration: inherit;
@@ -91,15 +74,45 @@ body * {
   border-image: linear-gradient(to right, #b861c6 0%,#ffc7c7 100%);
   border-image-slice: 1;
   border-width: 2px;
-  /* border-image: linear-gradient(to left, #743ad5, #d53a9d); */
 }
 
+.gradient-button-3 {
+  display: block;
+  background: none;
+  color: #1e272e;
+  border-image: linear-gradient(to left, #743ad5, #d53a9d);
+  border-image-slice: 1;
+  border-radius: 17px;
+  border-width: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-family: 'Francois One', sans-serif;
+}
+/* ************************* */
 
+
+/* Background Gradient */
+.light-gradient {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  height: 100px;
+  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+}
+/* ************************* */
+
+
+
+/* Radio Button */
 .radio-buttons-label {
   font-family: 'Lato', sans-serif;
-  color: linear-gradient(to right, #fab1a0 , #ff9ff3);
+  /* color: linear-gradient(to right, #fab1a0 , #ff9ff3); */
 }
+/* ************************* */
 
+
+
+/* Card */
 .card-1 {
   background-color: #222f3e;
   width: 400px;
@@ -116,3 +129,4 @@ body * {
 .card-top img {
   width: 80%;
 }
+/* ************************* */
