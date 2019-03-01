@@ -167,6 +167,7 @@ input[type="email"], input[type="password"] {
   font-size: 1em;
   width: 95%;
   height: 3.5em;
+  outline: none;
 }
 
 .align-submit-1 button[type="submit"] {
@@ -208,6 +209,7 @@ input[type="email"], input[type="password"] {
   width: 95%;
   height: 4em;
   font-size: 1em;
+  outline: none;
 }
 
 .align-submit-2 button[class="sign-in-button-2"] {
