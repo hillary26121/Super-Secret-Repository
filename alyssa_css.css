@@ -2,6 +2,14 @@ body * {
   margin: 10px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+.radio-buttons {
+  cursor: pointer;
+}
+
 /* Rounded Gradient Buttons */
 .gradient-button-1 {
   display: block;
@@ -93,11 +101,12 @@ body * {
 
 
 /* Background Gradient */
-.light-gradient {
+.background-gradient-1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
   height: 100px;
   background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+
 }
 /* ************************* */
 
