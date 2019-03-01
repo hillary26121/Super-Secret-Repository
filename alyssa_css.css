@@ -141,7 +141,6 @@ button:hover {
 /* ************************* */
 
 
-
 /* Form 1 */
 .sign-in-form-1 {
   padding: 20px 0;
@@ -149,9 +148,11 @@ button:hover {
   /* border: 4px solid #222f3e; */
   background-color: #dff9fb;
   box-shadow: 4px 4px 8px #AAAAAA;
+  width: 400px;
 
 }
 input[type="email"], input[type="password"] {
+  font-size: 1em;
   width: 95%;
   height: 3.5em;
 }
@@ -172,7 +173,12 @@ input[type="email"], input[type="password"] {
 fieldset {
   border-style: none;
 }
+
+input[placeholder="password"], input[placeholder="email"] {
+  font-size: 4em;
+}
 /* ************************* */
+
 
 /* Form 2 */
 .sign-in-form-2 {
@@ -182,12 +188,14 @@ fieldset {
   background-color: white;
   border: 1px solid #DDDDDD;
   box-shadow: 4px 4px 8px #AAAAAA;
+  width: 400px;
 
 }
 
 input[type="email"], input[type="password"] {
   width: 95%;
   height: 4em;
+  font-size: 1em;
 }
 
 .align-submit-2 button[class="sign-in-button-2"] {
