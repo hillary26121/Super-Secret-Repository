@@ -210,6 +210,7 @@ input[type="email"], input[type="password"] {
   height: 4em;
   font-size: 1em;
   outline: none;
+  border: 1px solid #DDDDDD;
 }
 
 .align-submit-2 button[class="sign-in-button-2"] {
@@ -228,5 +229,31 @@ input[type="email"], input[type="password"] {
 
 fieldset {
   border-style: none;
+}
+/* ************************* */
+
+
+/* Table */
+table {
+  width: 500px;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to right, #fab1a0 , #ff9ff3);
+
+}
+tr {
+  height: 70px;
+  text-align: center;
+}
+
+td {
+  width: 25%;
+}
+
+tr.darker-row {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+td.bold-row {
+  font-weight: 600;
 }
 /* ************************* */
